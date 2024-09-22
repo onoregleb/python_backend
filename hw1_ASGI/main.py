@@ -79,6 +79,7 @@ async def fibonacci(scope, receive, send):
     result = json.dumps({"result": result})
     await send_answer(send, 200, result, content_type="application/json")
 
+
 async def factorial(scope, receive, send):
     if scope["method"] != "GET":
         await send_answer(send, 404, "404 Not Found")

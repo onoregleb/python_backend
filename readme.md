@@ -5,6 +5,6 @@
 3. `.venv/Scripts/Activate`
 4. `pip install -r requirements.txt`
 5. `cd hw1_ASGI`
-6. `uvicorn myapp:router`
+6. `uvicorn main:app`
 
 # Далее - запускаем тесты из папки test.py
